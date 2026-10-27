@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# IDE
+.idea/
+.vscode/
+
+# 训练产物
+outputs/
+checkpoints/
+logs/
+*.ckpt
+
+# 模型权重
+*.safetensors
+*.bin

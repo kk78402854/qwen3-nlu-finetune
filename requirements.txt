@@ -1,0 +1,9 @@
+torch>=2.0
+transformers>=4.40
+datasets>=2.14
+peft>=0.11
+trl>=0.9
+bitsandbytes>=0.43
+accelerate>=0.30
+tqdm
+tensorboard
