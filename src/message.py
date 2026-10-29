@@ -36,7 +36,7 @@ def to_message(example, include_assistant: bool = False):
 
     user_message = {
         "role": "user",
-        "content": f"用户文本：{example["text"]}"
+        "content": f"用户文本：{example['text']}"
     }
     messages.append(user_message)
 
